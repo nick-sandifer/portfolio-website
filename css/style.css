@@ -6,3 +6,40 @@ black color: #000000
 body text color (dark grey): #303030
 takeaway color (light grey): #8f8f8f
 */
+body{
+  background-color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px; /* sets the font size to 16px */
+  font-weight: 300; /* sets the font weight to 300 */
+  line-height: 1.6; /* sets the line-height to 1.6 X the font-size */
+  color: #303030;
+}
+
+h1, h2, h3, h4, h5 {
+  line-height: 1.4;
+}
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+  color: #000000;
+}
+h2 {
+  font-size: 2.5em;
+  font-weight: 900;
+  color: #8f8f8f;
+}
+h3 {
+  font-size: 2.25em;
+  font-weight: 700;
+  color: #000000;
+}
+h4 {
+  font-size: 1.35em;
+  font-weight: 700;
+  color: #000000;
+}
+h5 {
+  font-size: 1.35em;
+  font-weight: 900;
+  color: #8f8f8f;
+}
