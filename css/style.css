@@ -65,3 +65,27 @@ a:focus {
   color: #ff4f4f;
   text-decoration: underline;
 }
+.button {
+  display: inline-block;
+  background-color: #178af0;
+  color: #ffffff; /* needed to override the dfault link color */
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #178af0; /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
+.button:hover {
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+}
+.button.contact {
+  background-color: transparent;
+  color: #178af0;
+  text-transform: uppercase;
+  border: 2px solid #178af0;
+}
+.button.contact:hover { /* for contact button hover state */
+  color: #ff4f4f;
+  border: 2px solid #ff4f4f;
+}
