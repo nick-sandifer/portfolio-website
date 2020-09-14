@@ -46,3 +46,22 @@ h5 {
 img {
   width: 100%;
 }
+a {
+  color: #178af0;
+  text-decoration: none; /* No underlining */
+}
+a:hover {
+  color: #ff4f4f;
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
+a:visited { /* visited link */
+  color: #f78888;
+}
+a:active { /* selected link */
+  color: #ff4f4f;
+}
+a:hover,
+a:focus {
+  color: #ff4f4f;
+  text-decoration: underline;
+}
