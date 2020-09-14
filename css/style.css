@@ -78,6 +78,7 @@ a:focus {
 .button:hover {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
   text-decoration: none;
+  color: #ffffff;
 }
 .button.contact {
   background-color: transparent;
