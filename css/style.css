@@ -6,7 +6,15 @@ black color: #000000
 body text color (dark grey): #303030
 takeaway color (light grey): #8f8f8f
 */
-body{
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 30px;
+}
+
+body {
   background-color: #ffffff;
   font-family: 'Lato', sans-serif;
   font-size: 16px; /* sets the font size to 16px */
@@ -14,7 +22,6 @@ body{
   line-height: 1.6; /* sets the line-height to 1.6 X the font-size */
   color: #303030;
 }
-
 h1, h2, h3, h4, h5 {
   line-height: 1.4;
 }
@@ -68,7 +75,7 @@ a:focus {
 .button {
   display: inline-block;
   background-color: #178af0;
-  color: #ffffff; /* needed to override the dfault link color */
+  color: #ffffff; /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
@@ -89,4 +96,77 @@ a:focus {
 .button.contact:hover { /* for contact button hover state */
   color: #ff4f4f;
   border: 2px solid #ff4f4f;
+}
+
+/* layout sytling */
+
+header {
+  background-color: #ffffff;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: lowercase;
+  font-weight: 700;
+  color: #8f8f8f;
+}
+nav > ul > li > a:visited{
+  color: #8f8f8f;
+}
+nav > ul > li > a:hover,
+a:focus {
+  color: #000000;
+  text-decoration: none;
+}
+nav > ul > li > a:active{
+  color: #178af0; /* attempting to change color of "current" page being viewed...!!! */
+}
+
+
+
+main {
+  padding-top: 133px;
+}
+#homepage-intro {
+  background-color:#ffffff;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+#homepage-intro {
+  text-align: center; /* centers text */
+}
+#homepage-intro span {
+  font-size: 1.35em;
+}
+#homepage-intro h1{
+  margin: 0;
+  padding: 0.67em 0;
+}
+#case-studies {
+  text-align: center;
+}
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+#case-studies .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #8f8f8f;
+}
+
+
+
+#connect {
+  text-align: center;
 }
