@@ -94,15 +94,23 @@ a:focus {
   background-color: #178af0;
   color: #ffffff; /* needed to override the default link color */
   font-weight: 400;
+  text-decoration: none;
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #178af0; /* width of the border, type, color */
-  transition: 0.2s opacity;
+  transition-duration: 0.2s;
+  transition-property: opacity;
 }
 
 .button:hover {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
   text-decoration: none;
+  background-color: #ff4f4f;
+  border-bottom: 2px solid #ff4f4f;
+  color: #ffffff;
+}
+
+.button:visited {
   color: #ffffff;
 }
 
@@ -162,28 +170,35 @@ nav > ul > li > a.current-page {
 main {
   padding-top: 133px;
 }
+
 #homepage-intro {
   background-color:#ffffff;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
 }
+
 #homepage-intro {
   text-align: center; /* centers text */
 }
+
 #homepage-intro span {
   font-size: 1.35em;
 }
+
 #homepage-intro h1{
   margin: 0;
   padding: 0.67em 0;
 }
+
 #case-studies {
   text-align: center;
 }
+
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
+
 #case-studies .row {
   padding-bottom: 25px;
   border-bottom: 1px solid #8f8f8f;
@@ -192,6 +207,7 @@ main {
 footer {
   text-align: center;
 }
+
 .button.contact {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -213,7 +229,7 @@ Medium devices (640px and larger)
 
   nav {
     width: auto;
-    float: right; /* this declaration did not in a ";" symbol on CareerFoundry...!!! */
+    float: right;
     margin-top: 4px;
   }
 
@@ -224,11 +240,48 @@ Medium devices (640px and larger)
   #hero span {
     display: block;
   }
+
+  .col-md-6 {
+    width: 50%
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 0px 10px 0px 10px;
+    text-align: left;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #about-page h3 {
+    margin-top: 0;
+  }
+
+
 }
 /* ==============================
 Large devices (1024px and larger)
 ================================= */
 @media only screen and (min-width:1024px) {
+
+  .col-md-7 {
+    width: 58.33%;
+  }
+
+  .col-md-5 {
+    width: 41.66%;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
 /* ==============================
 X-large devices (1440px and larger)
