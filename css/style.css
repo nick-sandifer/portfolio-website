@@ -22,56 +22,73 @@ body {
   line-height: 1.6; /* sets the line-height to 1.6 X the font-size */
   color: #303030;
 }
-h1, h2, h3, h4, h5 {
+
+h1,
+h2,
+h3,
+h4,
+h5 {
   line-height: 1.4;
 }
+
 h1 {
   font-size: 2.75em;
   font-weight: 700;
   color: #000000;
 }
+
 h2 {
   font-size: 2.5em;
   font-weight: 900;
   color: #8f8f8f;
 }
+
 h3 {
   font-size: 2.25em;
   font-weight: 700;
   color: #000000;
 }
+
 h4 {
   font-size: 1.35em;
   font-weight: 700;
   color: #000000;
 }
+
 h5 {
   font-size: 1.35em;
   font-weight: 900;
   color: #8f8f8f;
 }
+
 img {
   width: 100%;
 }
+
 a {
   color: #178af0;
   text-decoration: none; /* No underlining */
 }
+
 a:hover {
   color: #ff4f4f;
   text-decoration: underline; /* Underlining when hovering over a link */
 }
+
 a:visited { /* visited link */
   color: #f78888;
 }
+
 a:active { /* selected link */
   color: #ff4f4f;
 }
+
 a:hover,
 a:focus {
   color: #ff4f4f;
   text-decoration: underline;
 }
+
 .button {
   display: inline-block;
   background-color: #178af0;
@@ -82,23 +99,26 @@ a:focus {
   border-bottom: 2px solid #178af0; /* width of the border, type, color */
   transition: 0.2s opacity;
 }
+
 .button:hover {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
   text-decoration: none;
   color: #ffffff;
 }
+
 .button.contact {
   background-color: transparent;
   color: #178af0;
-  text-transform: uppercase;
+  text-transform: lowercase;
   border: 2px solid #178af0;
 }
+
 .button.contact:hover { /* for contact button hover state */
   color: #ff4f4f;
   border: 2px solid #ff4f4f;
 }
 
-/* layout sytling */
+/* layout styling ------------------------------------------------------------------------------------ */
 
 header {
   background-color: #ffffff;
@@ -108,32 +128,36 @@ header {
   padding-top: 10px;
   padding-bottom: 15px;
 }
+
 nav > ul {
   list-style-type: none;
   padding: 0;
 }
+
 nav > ul > li {
   display: inline-block;
 }
+
 nav > ul > li > a {
   padding: 0 15px;
   text-transform: lowercase;
   font-weight: 700;
   color: #8f8f8f;
 }
+
 nav > ul > li > a:visited{
   color: #8f8f8f;
 }
+
 nav > ul > li > a:hover,
 a:focus {
   color: #000000;
   text-decoration: none;
 }
-nav > ul > li > a:active{
+
+nav > ul > li > a.current-page {
   color: #178af0; /* attempting to change color of "current" page being viewed...!!! */
 }
-
-
 
 main {
   padding-top: 133px;
@@ -165,8 +189,49 @@ main {
   border-bottom: 1px solid #8f8f8f;
 }
 
-
-
-#connect {
+footer {
   text-align: center;
+}
+.button.contact {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.social-icon {
+  height: 40px;
+  width: 40px;
+  margin: 10px 15px 10px 15px;
+}
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width:640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right; /* this declaration did not in a ";" symbol on CareerFoundry...!!! */
+    margin-top: 4px;
+  }
+
+  body {
+    font-size: 18px;
+  }
+
+  #hero span {
+    display: block;
+  }
+}
+/* ==============================
+Large devices (1024px and larger)
+================================= */
+@media only screen and (min-width:1024px) {
+}
+/* ==============================
+X-large devices (1440px and larger)
+================================= */
+@media only screen and (min-width:1440px) {
 }
