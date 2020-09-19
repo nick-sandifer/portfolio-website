@@ -218,6 +218,46 @@ footer {
   width: 40px;
   margin: 10px 15px 10px 15px;
 }
+
+.berlin-illustration {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+@keyframes color-change {
+  0% {fill: #edc655;}
+  100% {fill: #f76414;}
+}
+.sun { /* this can also be written as: .sun { animation: 4s color-change infinite alternate linear} */
+  animation-duration: 4s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
+}
+
+.cloud-front {
+  animation-duration: 30s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px,48px);}
+  to {transform: translate(100px,48px);}
+}
+
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear; 
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
