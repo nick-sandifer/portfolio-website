@@ -98,16 +98,13 @@ a:focus {
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #178af0; /* width of the border, type, color */
-  transition-duration: 0.2s;
+  transition-duration: 0.8s;
   transition-property: opacity;
 }
 
 .button:hover {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
   text-decoration: none;
-  background-color: #ff4f4f;
-  border-bottom: 2px solid #ff4f4f;
-  color: #ffffff;
 }
 
 .button:visited {
@@ -256,7 +253,7 @@ footer {
 }
 
 .cloud-back {
-  animation: 34s cloud-move-reverse infinite alternate linear; 
+  animation: 34s cloud-move-reverse infinite alternate linear;
 }
 /* ==============================
 Medium devices (640px and larger)
@@ -308,11 +305,11 @@ Large devices (1024px and larger)
 ================================= */
 @media only screen and (min-width:1024px) {
 
-  .col-md-7 {
+  .col-lg-7 {
     width: 58.33%;
   }
 
-  .col-md-5 {
+  .col-lg-5 {
     width: 41.66%;
   }
 
