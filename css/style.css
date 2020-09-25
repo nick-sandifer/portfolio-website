@@ -186,6 +186,7 @@ nav > ul > li > a.current-page {
 
 .navtoggle.responsive li {
   display: block;
+  text-align: right;
   padding: 10px 0;
   border-top: 1px solid rgba(255,127,80,0.5);
 }
