@@ -289,7 +289,18 @@ footer {
 /* layouts for Wavez Project Section
 ------------------------------------
 ------------------------------------*/
-.challenge-outcome {
+.wavez-project-overview {
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.intro-statement {
+  font-size: 1.35em;
+}
+
+.challenge-outcome { /* for challenge/outcome sections on Wavez Project */
   display: inline-block;
   text-align: center;
 }
@@ -360,6 +371,9 @@ Medium devices (640px and larger)
     margin-top: 0;
   }
 
+  .challenge-outcome { /* for challenge/outcome sections on Wavez Project */
+    text-align: center;
+  }
 
 }
 /* ==============================
