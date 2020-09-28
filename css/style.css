@@ -186,7 +186,6 @@ nav > ul > li > a.current-page {
 
 .navtoggle.responsive li {
   display: block;
-  text-align: right;
   padding: 10px 0;
   border-top: 1px solid rgba(255,127,80,0.5);
 }
@@ -286,6 +285,22 @@ footer {
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
+
+/* layouts for Wavez Project Section
+------------------------------------
+------------------------------------*/
+.challenge-outcome {
+  display: inline-block;
+  text-align: center;
+}
+
+.challenge-icon {
+  height: 80px;
+  width: 80px;
+  margin: 10px 15px 10px 15px;
+}
+
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
