@@ -311,6 +311,23 @@ footer {
   margin: 10px 15px 10px 15px;
 }
 
+.project-pic {
+  max-width: 80%;
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+}
+
+.wire-pic {
+  max-width: 250px;
+}
+
+.wavez-margin {
+  margin top: 200px;
+  margin bottom: 200px;
+}
 
 /* ==============================
 Medium devices (640px and larger)
@@ -352,7 +369,16 @@ Medium devices (640px and larger)
   }
 
   .col-md-6 {
-    width: 50%
+    width: 50%;
+  }
+
+  .project-phases-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .col-md-4 {
+    width: 33.33;
   }
 
   [class*="col-"] {
@@ -373,6 +399,10 @@ Medium devices (640px and larger)
 
   .challenge-outcome { /* for challenge/outcome sections on Wavez Project */
     text-align: center;
+  }
+
+  .project-pic {
+    max-width: 70%;
   }
 
 }
