@@ -324,9 +324,10 @@ footer {
   max-width: 250px;
 }
 
-.wavez-margin {
+.wavez-margin { /* this is my attempt to add top/bottom margins to my main <div> blocks */
   margin top: 200px;
   margin bottom: 200px;
+  display: block;
 }
 
 /* ==============================
