@@ -331,6 +331,12 @@ footer {
   display: block;
 }
 
+.about-margin {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: block;
+}
+
 .wavez-margin-less {
   margin-top: 80px;
   margin-bottom: 160px;
@@ -346,6 +352,23 @@ footer {
 
 .phase-button {
   padding-top: 50px;
+}
+
+.nick-pic {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.about-me {
+  margin-top: 60px;
+}
+
+.button-margin {
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 
