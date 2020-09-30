@@ -105,6 +105,7 @@ a:focus {
 .button:hover {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
   text-decoration: none;
+  color: white;
 }
 
 .button:visited {
@@ -226,6 +227,11 @@ main {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
 
+#challenge-and-outcome .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #8f8f8f;
+}
+
 #case-studies .row {
   padding-bottom: 25px;
   border-bottom: 1px solid #8f8f8f;
@@ -256,6 +262,7 @@ footer {
   0% {fill: #edc655;}
   100% {fill: #f76414;}
 }
+
 .sun { /* this can also be written as: .sun { animation: 4s color-change infinite alternate linear} */
   animation-duration: 4s;
   animation-name: color-change;
@@ -305,12 +312,6 @@ footer {
   text-align: center;
 }
 
-.challenge-icon {
-  height: 80px;
-  width: 80px;
-  margin: 10px 15px 10px 15px;
-}
-
 .project-pic {
   max-width: 80%;
 }
@@ -330,6 +331,22 @@ footer {
   display: block;
 }
 
+.wavez-margin-less {
+  margin-top: 80px;
+  margin-bottom: 160px;
+}
+
+.project-pic {
+  max-width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.phase-button {
+  padding-top: 50px;
+}
 
 
 /* ==============================
@@ -405,7 +422,12 @@ Medium devices (640px and larger)
   }
 
   .project-pic {
+    max-width: 90%;
+  }
+
+  .text-max {
     max-width: 70%;
+    margin: auto;
   }
 
 }

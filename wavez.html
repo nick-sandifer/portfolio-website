@@ -74,32 +74,27 @@
 
 <!-- for challenge and outcome statements (2 columns) -->
           <div id="challenge-and-outcome"><!-- whole section block -->
-              <div class="container wavez-margin"><!-- container/wrapper for 2 columns-->
+              <div class="container wavez-margin-less"><!-- container/wrapper for 2 columns-->
 
                   <div class="col-md-6 challenge-outcome"><!-- column 1 for challenge section -->
-                      <picture class="challenge-icon"><!-- mountain icon -->
-                          <source srcset="img/extra_img/img_14.png" media="(max-width:767px)" class="challenge-icon">
-                          <img src="img/extra_img/img_14.png" alt="mountain icon" class="challenge-icon">
-                      </picture>
-                      <h4><!-- the challenge title -->
+                      <h3><!-- the challenge title -->
                         The Challenge
-                      </h4>
+                      </h3>
                       <p><!-- the challenge paragraph -->
                         How to design a product that could stand out in an over-saturated market plagued by confusing interfaces.
                       </p>
                   </div>
 
                   <div class="col-md-6 challenge-outcome"><!-- column 2 for outcome section -->
-                      <picture> <!-- mountain icon -->
-                          <source srcset="img/extra_img/img_7.png" media="(max-width:767px)" class="challenge-icon">
-                          <img src="img/extra_img/img_7.png" alt="outcome icon" class="challenge-icon">
-                      </picture>
-                      <h4><!-- the outcome title -->
+                      <h3><!-- the outcome title -->
                         The Outcome
-                      </h4>
+                      </h3>
                       <p><!-- the outcome paragraph -->
                         I designed a flexible beach + weather app that responds to the needs of my users by generating easy-to-understand, personalized data feeds.
                       </p>
+                  </div>
+
+                  <div class="row">
                   </div>
 
               </div>
@@ -116,40 +111,46 @@
                   </h3>
 
                       <div class="col-md-4"><!-- column 1 for project phase, generative research -->
-                          <h4><!-- phase 1 title -->
+                          <h4 class="center"><!-- phase 1 title -->
                             Generative Research
                           </h4>
-                              <ul><!-- list of phase contents -->
+                              <ul class="center"><!-- list of phase contents -->
                                   <li><p>Market Research</p></li>
                                   <li><p>User Research</p></li>
                                   <li><p>Design Personas</p></li>
                                   <li><p>Design Journeys</p></li>
                               </ul>
-                          <a href="#phase1" class="button">Read More</a><!-- button for generative research section -->
+                          <div class="center phase-button">
+                              <a href="#phase1" class="button">Read More</a><!-- button for generative research section -->
+                          </div>
                       </div>
 
-                      <div class="col-md-4"><!-- column 2 for project phase, ideation -->
-                          <h4><!-- phase 2 title -->
+                      <div class="col-md-4 center"><!-- column 2 for project phase, ideation -->
+                          <h4 class="center"><!-- phase 2 title -->
                             Ideation
                           </h4>
-                              <ul><!-- list of phase contents -->
+                              <ul class="center"><!-- list of phase contents -->
                                   <li><p>User Flows</p></li>
                                   <li><p>Sitemaps</p></li>
                               </ul>
-                          <a href="#phase2" class="button">Read More</a><!-- button for ideation section -->
+                          <div class="center phase-button">
+                              <a href="#phase2" class="button">Read More</a><!-- button for ideation section -->
+                          </div>
                       </div>
 
-                      <div class="col-md-4"><!-- column 3 for project phase, design iteration -->
-                          <h4><!-- phase 3 title -->
+                      <div class="col-md-4 center"><!-- column 3 for project phase, design iteration -->
+                          <h4 class="center"><!-- phase 3 title -->
                             Design Iteration
                           </h4>
-                              <ul><!-- list of phase contents -->
+                              <ul class="center"><!-- list of phase contents -->
                                   <li><p>Wireframes</p></li>
                                   <li><p>Prototypes</p></li>
                                   <li><p>User Testing</p></li>
                                   <li><p>Deliverables</p></li>
                               </ul>
-                          <a href="#phase3" class="button">Read More</a><!-- button for design iteration section -->
+                          <div class="center phase-button">
+                              <a href="#phase3" class="button">Read More</a><!-- button for design iteration section -->
+                          </div>
                       </div>
 
               </div>
@@ -161,7 +162,7 @@
 
 <!-- for phase 1 title -->
           <div id="phase1"><!-- whole section block -->
-              <div class="container wavez-margin"><!-- container/wrapper -->
+              <div class="container"><!-- container/wrapper -->
 
                   <h2><!-- phase 1 title -->
                     Phase 01
@@ -181,7 +182,7 @@
                   <h3><!-- the challenge title -->
                     The Challenge
                   </h3>
-                  <p><!-- the challenge paragraph -->
+                  <p class="text-max"><!-- the challenge paragraph -->
                     Wavez was created as a project for CareerFoundry's UX immersion course. Serving as my client, CareerFoundry proposed the need for
                     an app that would allow ocean aficionados to view water, wave, and weather data to increase their safety and fun while at the beach.
                   </p>
@@ -201,12 +202,10 @@
                           <h3><!-- evaluating the market title -->
                             Evaluating the Market
                           </h3>
-                          <p><!-- evaluating the market paragraphs -->
+                          <p class="text-max"><!-- evaluating the market paragraphs -->
                             My first order of business was to understand my competitors - how they were being received by users, and what they had to
                             offer them.
-                          </p>
-                          <p>
-                            After some browsing through the Apple and Google Play stores, it became apparent that while the market was full of Weather
+                             After some browsing through the Apple and Google Play stores, it became apparent that while the market was full of Weather
                             and beach related apps, there were very few (if any) clear favorites dominating the field...
                           </p>
                       </div>
@@ -215,7 +214,7 @@
           </div><!-- end whole section block -->
       <!-- for evaluating the market image -->
           <div><!-- whole section block -->
-              <div>
+              <div class="container">
                   <picture><!-- evaluating the market image -->
                       <source srcset="img/wavez_app/wavez_28.png" media="(max-width:767px)" class="project-pic"><!-- awaiting updated imagery -->
                       <img src="img/wavez_app/wavez_28x2.png" alt="evaluating the market image" class="project-pic">
@@ -235,12 +234,10 @@
                           <h3><!-- understanding my users title -->
                             Understanding My Users
                           </h3>
-                          <p><!-- understanding my users designs paragraphs -->
+                          <p class="text-max"><!-- understanding my users designs paragraphs -->
                             Based on the information gathered during my generative user research, I created sets of user personas and journeys to
                             represent the types of individuals in my target audience.
-                          </p>
-                          <p>
-                            These served as reference points throughout the project, focusing design choices around the users.
+                             These served as reference points throughout the project, focusing design choices around the users.
                           </p>
                       </div>
 
@@ -293,12 +290,12 @@
                       <h3><!-- understanding my users title -->
                         User Flows
                       </h3>
-                      <p><!-- understanding my users designs paragraphs -->
+                      <p class="text-max"><!-- understanding my users designs paragraphs -->
                         I created user flows to lay the groundwork for the information architecture (IA) of my app. After a few iterations,
                         I realized users could access most features of the app in just a few steps - but to do so risked exposing users to
                         too much info at once...
                       </p>
-                      <p>
+                      <p class="text-max">
                         I turned to apps like Pinterest, and decided to adopt a similar data-card method of displaying information to reduce
                         cognitive load on users.
                       </p>
@@ -347,7 +344,7 @@
                       <h3><!-- wireframes title -->
                         Wireframes
                       </h3>
-                      <p><!-- wireframes paragraphs -->
+                      <p class="text-max"><!-- wireframes paragraphs -->
                         Using my sitemaps and user flows as guides, I began hand-sketching wireframes with the Procreate app. These sketches were later
                         refined using Adobe XD, and evolved as user testing revealed new insights about the designs.
                       </p>
@@ -361,7 +358,7 @@
               <div class="container wavez-margin">
 
                   <div class="col-md-4"><!-- column 2 mid-fidelity -->
-                      <h4>
+                      <h4 class="center">
                         Mid-fidelity
                       </h4>
                       <picture><!-- low fidelity wireframe  -->
@@ -371,7 +368,7 @@
                   </div>
 
                   <div class="col-md-4"><!-- column 3 mid-fidelity -->
-                      <h4>
+                      <h4 class="center">
                         High-fidelity
                       </h4>
                       <picture><!-- low fidelity wireframe  -->
@@ -381,13 +378,15 @@
                   </div>
 
                   <div class="col-md-4"><!-- column 4 final mockup -->
-                      <h4>
+                      <h4 class="center">
                         Final Mockup
                       </h4>
-                      <picture><!-- low fidelity wireframe  -->
+                      <div>
+                      <picture class="center"><!-- low fidelity wireframe  -->
                           <source srcset="img/wavez_app/wavez_26.png" media="(max-width:767px)" class="wire-pic"><!-- awaiting updated imagery -->
                           <img src="img/wavez_app/wavez_26x2.png" alt="final mockup image" class="wire-pic">
                       </picture>
+                      </div>
                   </div>
 
               </div>
@@ -395,7 +394,7 @@
 
 <!-- for the prototyping section -->
           <div id="prototyping-section"><!-- whole section block -->
-              <div class="container wavez-margin"><!-- container/wrapper for 2 columns -->
+              <div class="container"><!-- container/wrapper for 2 columns -->
 
                   <h5><!-- phase title -->
                     PHASE 03
@@ -406,7 +405,7 @@
                           <h3>
                             Prototyping
                           </h3>
-                          <p>
+                          <p class="text-max">
                             I created prototypes at every level of wireframe fidelity to assist with user testing. Using InVision, my users could
                             simulate using a finalized version of my app and provide me with feedback about the design.
                           </p>
@@ -437,7 +436,7 @@
                       <h3>
                         Final Design + Deliverables
                       </h3>
-                      <p>
+                      <p class="text-max">
                         After about three months of research, ideation, and design iteration Wavez was completed and ready for hand-off. My client (CareerFoundry) requested
                         final prototypes, design language systems, and UI style kits.
                       </p>
@@ -446,7 +445,7 @@
           </div><!-- end whole section block -->
       <!-- for dls image -->
           <div><!-- whole section block -->
-              <div>
+              <div class="container project-pic">
                   <picture><!-- design language systems image  -->
                       <source srcset="img/wavez_app/wavez_36.png" media="(max-width:767px)"><!-- awaiting updated imagery -->
                       <img src="img/wavez_app/wavez_36.png" alt="design language systems image">
@@ -455,7 +454,7 @@
           </div><!-- end whole section block -->
       <!-- for beauty renders image -->
           <div><!-- whole section block -->
-              <div>
+              <div class="container project-pic">
                   <picture><!-- beauty reders image  -->
                       <source srcset="img/wavez_app/wavez_25.png" media="(max-width:767px)"><!-- awaiting updated imagery -->
                       <img src="img/wavez_app/wavez_25.png" alt="final screens image">
@@ -474,11 +473,11 @@
                           <h3>
                             Final Thoughts
                           </h3>
-                          <p>
+                          <p class="text-max">
                             This was my first UX project as a designer, as such there was a lot of learning and professional growth that I
                             experienced throughout the process.
                           </p>
-                          <p>
+                          <p class="text-max">
                             Because this was a project completed for CareerFoundry's UX Immersion course, the final design was never handed off
                             to developers, and I didn't have the opportunity to improve the design through further rounds of user testing. In
                             retrospect, there are certain features and elements I would have liked to test further (such as the clarity of some data tiles on the home screen).
@@ -501,10 +500,14 @@
                   <h4>
                     Photo Credits:
                   </h4>
-                  <ul>
-                      <li><p>Oregon Coast Image: Moon.com</p></li>
-                      <li><p>Persona Photo: Hawaiimagazine.com</p></li>
-                  </ul>
+
+                  <p class="center">
+                    Oregon Coast Image: Moon.com
+                  </p>
+                  <p class="center">
+                    Persona Photo: Hawaiimagazine.com
+                  </p>
+
               </div>
           </div>
 
