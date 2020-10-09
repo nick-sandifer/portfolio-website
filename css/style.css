@@ -371,6 +371,10 @@ footer {
   margin-bottom: 20px;
 }
 
+.prototype-image {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
 
 /* ==============================
 Medium devices (640px and larger)
@@ -427,7 +431,6 @@ Medium devices (640px and larger)
   [class*="col-"] {
     float: left;
     padding: 0px 10px 0px 10px;
-    text-align: left;
   }
 
   .row::after {
@@ -451,6 +454,22 @@ Medium devices (640px and larger)
   .text-max {
     max-width: 70%;
     margin: auto;
+  }
+
+  .text-align-left {
+    text-align: left;
+  }
+
+  .extra-margin {
+    margin-top: 550px;
+  }
+
+  .extra-marginx2 {
+    margin-top: 980px;
+  }
+
+  .extra-marginx3 {
+    margin-top: 760px;
   }
 
 }

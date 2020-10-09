@@ -21,7 +21,7 @@
 
 <!-- For the header -->
 
-      <header id="top">
+      <header>
         <!-- For the site navigation-->
           <div class="container">
               <div class="navtoggle" id="myNavtoggle">
@@ -42,7 +42,7 @@
       <main>
 
 <!-- for wavez title image -->
-          <div><!-- whole section block -->
+          <div id="top"><!-- whole section block -->
               <div><!-- container/wrapper -->
 
                   <picture><!-- wavez title image -->
@@ -114,12 +114,12 @@
                           <h4 class="center"><!-- phase 1 title -->
                             Generative Research
                           </h4>
-                              <ul class="center"><!-- list of phase contents -->
-                                  <li><p>Market Research</p></li>
-                                  <li><p>User Research</p></li>
-                                  <li><p>Design Personas</p></li>
-                                  <li><p>Design Journeys</p></li>
-                              </ul>
+                              <div class="center"><!-- list of phase contents -->
+                                  <p>Market Research</p>
+                                  <p>User Research</p>
+                                  <p>Design Personas</p>
+                                  <p>Design Journeys</p>
+                              </div>
                           <div class="center phase-button">
                               <a href="#phase1" class="button">Read More</a><!-- button for generative research section -->
                           </div>
@@ -129,10 +129,10 @@
                           <h4 class="center"><!-- phase 2 title -->
                             Ideation
                           </h4>
-                              <ul class="center"><!-- list of phase contents -->
-                                  <li><p>User Flows</p></li>
-                                  <li><p>Sitemaps</p></li>
-                              </ul>
+                              <div class="center"><!-- list of phase contents -->
+                                  <p>User Flows</p>
+                                  <p>Sitemaps</p>
+                              </div>
                           <div class="center phase-button">
                               <a href="#phase2" class="button">Read More</a><!-- button for ideation section -->
                           </div>
@@ -142,12 +142,12 @@
                           <h4 class="center"><!-- phase 3 title -->
                             Design Iteration
                           </h4>
-                              <ul class="center"><!-- list of phase contents -->
-                                  <li><p>Wireframes</p></li>
-                                  <li><p>Prototypes</p></li>
-                                  <li><p>User Testing</p></li>
-                                  <li><p>Deliverables</p></li>
-                              </ul>
+                              <div class="center"><!-- list of phase contents -->
+                                  <p>Wireframes</p>
+                                  <p>Prototypes</p>
+                                  <p>User Testing</p>
+                                  <p>Deliverables</p>
+                              </div>
                           <div class="center phase-button">
                               <a href="#phase3" class="button">Read More</a><!-- button for design iteration section -->
                           </div>
@@ -162,7 +162,7 @@
 
 <!-- for phase 1 title -->
           <div id="phase1"><!-- whole section block -->
-              <div class="container"><!-- container/wrapper -->
+              <div class="container extra-margin"><!-- container/wrapper -->
 
                   <h2><!-- phase 1 title -->
                     Phase 01
@@ -394,7 +394,7 @@
 
 <!-- for the prototyping section -->
           <div id="prototyping-section"><!-- whole section block -->
-              <div class="container"><!-- container/wrapper for 2 columns -->
+              <div class="container extra-marginx2"><!-- container/wrapper for 2 columns -->
 
                   <h5><!-- phase title -->
                     PHASE 03
@@ -414,11 +414,15 @@
                   </div><!-- end column 1 -->
 
                   <div><!-- column 2 for wavez prototype image and link -->
-                      <picture><!-- wavez splash screen image  -->
-                          <source srcset="img/wavez_app/wavez_42.png" media="(max-width:767px)" class="wire-pic"><!-- awaiting updated imagery -->
-                          <img src="img/wavez_app/wavez_42x2.png" alt="prototype screen image" class="wire-pic">
-                      </picture>
-                      <a href="https://projects.invisionapp.com/share/E6X5WNXJZSG#/screens" target="_blank" class="button">View Prototype</a><!-- wavez invision prototype -->
+                      <div class="container prototype-image">
+                          <picture><!-- wavez splash screen image  -->
+                              <source srcset="img/wavez_app/wavez_42.png" media="(max-width:767px)" class="wire-pic"><!-- awaiting updated imagery -->
+                              <img src="img/wavez_app/wavez_42x2.png" alt="prototype screen image" class="wire-pic">
+                          </picture>
+                      </div>
+                      <div>
+                          <a href="https://projects.invisionapp.com/share/E6X5WNXJZSG#/screens" target="_blank" class="button">View Prototype</a><!-- wavez invision prototype -->
+                      </div>
                   </div>
 
               </div>
