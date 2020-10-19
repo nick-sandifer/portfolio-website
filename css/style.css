@@ -4,7 +4,7 @@ primary color (blue): #178af0
 secondary color (red): #ff4f4f
 black color: #000000
 body text color (dark grey): #303030
-takeaway color (light grey): #8f8f8f
+takeaway color (light grey): #767676
 */
 * {
   box-sizing: border-box;
@@ -58,7 +58,7 @@ h4 {
 h5 {
   font-size: 1.35em;
   font-weight: 900;
-  color: #8f8f8f;
+  color: #767676;
 }
 
 img {
@@ -144,11 +144,11 @@ nav > ul > li > a {
   padding: 0 15px;
   text-transform: lowercase;
   font-weight: 700;
-  color: #8f8f8f;
+  color: #767676;
 }
 
 nav > ul > li > a:visited{
-  color: #8f8f8f;
+  color: #767676;
 }
 
 nav > ul > li > a:hover,
@@ -229,12 +229,12 @@ main {
 
 #challenge-and-outcome .row {
   padding-bottom: 25px;
-  border-bottom: 1px solid #8f8f8f;
+  border-bottom: 1px solid #767676;
 }
 
 #case-studies .row {
   padding-bottom: 25px;
-  border-bottom: 1px solid #8f8f8f;
+  border-bottom: 1px solid #767676;
 }
 
 footer {
