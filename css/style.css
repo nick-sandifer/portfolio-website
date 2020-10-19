@@ -17,9 +17,12 @@ takeaway color (light grey): #767676
 body {
   background-color: #ffffff;
   font-family: 'Lato', sans-serif;
-  font-size: 16px; /* sets the font size to 16px */
-  font-weight: 300; /* sets the font weight to 300 */
-  line-height: 1.6; /* sets the line-height to 1.6 X the font-size */
+  font-size: 16px;
+  /* sets the font size to 16px */
+  font-weight: 300;
+  /* sets the font weight to 300 */
+  line-height: 1.6;
+  /* sets the line-height to 1.6 X the font-size */
   color: #303030;
 }
 
@@ -67,19 +70,23 @@ img {
 
 a {
   color: #178af0;
-  text-decoration: none; /* No underlining */
+  text-decoration: none;
+  /* No underlining */
 }
 
 a:hover {
   color: #ff4f4f;
-  text-decoration: underline; /* Underlining when hovering over a link */
+  text-decoration: underline;
+  /* Underlining when hovering over a link */
 }
 
-a:visited { /* visited link */
+a:visited {
+  /* visited link */
   color: #f78888;
 }
 
-a:active { /* selected link */
+a:active {
+  /* selected link */
   color: #ff4f4f;
 }
 
@@ -92,18 +99,21 @@ a:focus {
 .button {
   display: inline-block;
   background-color: #178af0;
-  color: #ffffff; /* needed to override the default link color */
+  color: #ffffff;
+  /* needed to override the default link color */
   font-weight: 400;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #178af0; /* width of the border, type, color */
+  border-bottom: 2px solid #178af0;
+  /* width of the border, type, color */
   transition-duration: 0.8s;
   transition-property: opacity;
 }
 
 .button:hover {
-  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  opacity: 0.8;
+  /* Reduces the opacity of the button to 80% */
   text-decoration: none;
   color: white;
 }
@@ -119,13 +129,13 @@ a:focus {
   border: 2px solid #178af0;
 }
 
-.button.contact:hover { /* for contact button hover state */
+.button.contact:hover {
+  /* for contact button hover state */
   color: #ff4f4f;
   border: 2px solid #ff4f4f;
 }
 
 /* layout styling ------------------------------------------------------------------------------------ */
-
 header {
   background-color: #ffffff;
   width: 100%;
@@ -134,31 +144,32 @@ header {
   padding-bottom: 4px;
 }
 
-nav > ul {
+nav>ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-nav > ul > li > a {
+nav>ul>li>a {
   padding: 0 15px;
   text-transform: lowercase;
   font-weight: 700;
   color: #767676;
 }
 
-nav > ul > li > a:visited{
+nav>ul>li>a:visited {
   color: #767676;
 }
 
-nav > ul > li > a:hover,
+nav>ul>li>a:hover,
 a:focus {
   color: #000000;
   text-decoration: none;
 }
 
-nav > ul > li > a.current-page {
-  color: #178af0; /* attempting to change color of "current" page being viewed...!!! */
+nav>ul>li>a.current-page {
+  color: #178af0;
+  /* attempting to change color of "current" page being viewed...!!! */
 }
 
 .navtoggle li:not(:last-child) {
@@ -188,7 +199,7 @@ nav > ul > li > a.current-page {
 .navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid rgba(255,127,80,0.5);
+  border-top: 1px solid rgba(255, 127, 80, 0.5);
 }
 
 .navtoggle.responsive li:last-child {
@@ -200,21 +211,22 @@ main {
 }
 
 #homepage-intro {
-  background-color:#ffffff;
+  background-color: #ffffff;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
 }
 
 #homepage-intro {
-  text-align: center; /* centers text */
+  text-align: center;
+  /* centers text */
 }
 
 #homepage-intro span {
   font-size: 1.35em;
 }
 
-#homepage-intro h1{
+#homepage-intro h1 {
   margin: 0;
   padding: 0.67em 0;
 }
@@ -224,7 +236,8 @@ main {
 }
 
 .row {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  margin: 25px 0;
+  /* 25px top and bottom, 0 left and right */
 }
 
 #challenge-and-outcome .row {
@@ -259,11 +272,17 @@ footer {
 }
 
 @keyframes color-change {
-  0% {fill: #edc655;}
-  100% {fill: #f76414;}
+  0% {
+    fill: #edc655;
+  }
+
+  100% {
+    fill: #f76414;
+  }
 }
 
-.sun { /* this can also be written as: .sun { animation: 4s color-change infinite alternate linear} */
+.sun {
+  /* this can also be written as: .sun { animation: 4s color-change infinite alternate linear} */
   animation-duration: 4s;
   animation-name: color-change;
   animation-iteration-count: infinite;
@@ -272,8 +291,13 @@ footer {
 }
 
 @keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
+  from {
+    transform: translate(0, 50px);
+  }
+
+  to {
+    transform: translate(200px, 50px);
+  }
 }
 
 .cloud-front {
@@ -285,8 +309,13 @@ footer {
 }
 
 @keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px,48px);}
+  from {
+    transform: translate(446px, 48px);
+  }
+
+  to {
+    transform: translate(100px, 48px);
+  }
 }
 
 .cloud-back {
@@ -307,7 +336,8 @@ footer {
   font-size: 1.35em;
 }
 
-.challenge-outcome { /* for challenge/outcome sections on Wavez Project */
+.challenge-outcome {
+  /* for challenge/outcome sections on Wavez Project */
   display: inline-block;
   text-align: center;
 }
@@ -325,7 +355,8 @@ footer {
   max-width: 250px;
 }
 
-.wavez-margin { /* this is my attempt to add top/bottom margins to my main <div> blocks */
+.wavez-margin {
+  /* this is my attempt to add top/bottom margins to my main <div> blocks */
   margin-top: 160px;
   margin-bottom: 160px;
   display: block;
@@ -391,11 +422,11 @@ Medium devices (640px and larger)
     margin-top: 4px;
   }
 
-  nav > ul {
+  nav>ul {
     margin: 1em 0;
   }
 
-  nav > ul > li {
+  nav>ul>li {
     display: inline-block;
   }
 
@@ -443,7 +474,8 @@ Medium devices (640px and larger)
     margin-top: 0;
   }
 
-  .challenge-outcome { /* for challenge/outcome sections on Wavez Project */
+  .challenge-outcome {
+    /* for challenge/outcome sections on Wavez Project */
     text-align: center;
   }
 
@@ -471,13 +503,12 @@ Medium devices (640px and larger)
   .extra-marginx3 {
     margin-top: 760px;
   }
-
 }
+
 /* ==============================
 Large devices (1024px and larger)
 ================================= */
 @media only screen and (min-width:1024px) {
-
   .col-lg-7 {
     width: 58.33%;
   }
@@ -491,10 +522,9 @@ Large devices (1024px and larger)
     margin-left: auto;
     margin-right: auto;
   }
-
 }
+
 /* ==============================
 X-large devices (1440px and larger)
 ================================= */
-@media only screen and (min-width:1440px) {
-}
+@media only screen and (min-width:1440px) {}
